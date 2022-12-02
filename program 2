@@ -1,0 +1,40 @@
+                                                                            #ELIGIBLE FOR VOTE OR NOT
+MODEL:1
+
+def fun1(n):
+    if n>18:
+        print('YES')
+    else:
+        print("NO")
+n=int(input())
+fun1(n)
+MODEL:2
+
+def fun1(n):
+    if n>18:
+        return'YES'
+    else:
+        return"NO"
+n=int(input())
+print(fun1(n))
+
+MODEL:3
+
+#ELIGIBLE FOR VOTE OR NOT
+def fun1(n):
+    if n>18:
+        return True
+    else:
+        return False
+n=int(input())
+if(fun1(n)):
+    print('yes')
+else:
+    print('no')
+OUTPUT:
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+45
+yes
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+12
+NO
