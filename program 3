@@ -1,0 +1,54 @@
+                                                       #LEAP YEAR OR NOT
+MODEL:1 
+
+def fun1(n):
+    if n%400==0:
+        print('YES')
+    else:
+        print('NO')
+n=int(input())
+fun1(n)
+
+ MODEL:2
+    def fun1(n):
+    if n%400==0:
+        return 'YES'
+    else:
+        return 'NO'
+n=int(input())
+print(fun1(n))
+
+MODEL:3
+
+def fun1(n):
+    if n%400==0:
+        return True
+    else:
+        return False
+n=int(input())
+if(fun1(n)):
+    print('yes')
+else:
+    print('no')
+    
+    OUTPUT:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+45
+yes
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+4000
+yes
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+1600
+YES
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+1999
+NO
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+34465
+NO
+
