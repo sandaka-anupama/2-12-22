@@ -1,0 +1,46 @@
+                                                        #Biggest of two numbers using function
+
+MODEL:1
+
+def func(n1 ,n2):
+    if(n1>n2):
+        print('n1 is big')
+    else:
+        print('n2 is big')
+      
+n1=input('enter first number')
+n2=input('enter second number')
+func(n1 ,n2)
+
+MODEL:2
+
+def func(n1 ,n2):
+    if(n1>n2):
+        return 'n1 is big'
+    elif n2>n1:
+        return 'n2 is big'
+        
+n1=input('enter first number:',n1)
+n2=input('enter second number:',n2)
+print(func(n1 ,n2))
+
+MODEL:3
+
+#Biggest of two numbers using function
+def func(n1 ,n2):
+    if(n1>n2):
+        return True
+    else:
+        return False
+
+n1=input('enter first number:')
+n2=input('enter second number:')
+if(func(n1 ,n2)):
+    print('n1 is big:',n1)
+else:
+    print('n2 is big:',n2)
+output:
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/ryf.py ==
+enter first number:45
+enter second number:67
+n2 is big: 67
